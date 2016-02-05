@@ -26,7 +26,8 @@ rset.close();
 stmt.close();
 conn.close();
 %>
-
+<form action="XXX" method="get"><input type="submit"></form>
+ 
 
 
 </body>

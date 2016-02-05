@@ -15,8 +15,13 @@ public class servlet01 extends HttpServlet {
   
  
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
 	 System.out.println("Hi!");
 	 System.out.println("Hahaha!");
+
+		 System.out.println("Hi!");
+		 System.out.println("Hi2!");
+
 	}
 
  

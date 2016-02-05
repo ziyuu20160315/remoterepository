@@ -18,6 +18,8 @@ public class servlet01 extends HttpServlet {
 
 	 System.out.println("Hi!");
 
+	 System.out.println("Hi222222!");
+
 	 System.out.println("Hi2222!");
 
 	 System.out.println("Hahaha!");

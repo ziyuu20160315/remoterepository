@@ -30,7 +30,6 @@ public class servlet01 extends HttpServlet {
      System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaa");
 	}
 
- 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	 
 		doGet(request, response);

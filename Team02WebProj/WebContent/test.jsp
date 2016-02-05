@@ -25,10 +25,21 @@ while(rset.next()) {
 rset.close();
 stmt.close();
 conn.close();
-%>
-<form action="XXX" method="get"><input type="submit"></form>
  
+%>
+
+<a href="/Team02WebProj/webtest"> 測試</a>
+
+<form  action="FirstSerlet" method="get">
+      
+   <input  type="submit">
+</form>
 
 
+<a href="/Team02WebProj/testservlet">servlet05</a>
+
+<a href="/Team02WebProj/servlet">servlet06</a>
+
+ <form action="XXX" method="get"><input type="submit"></form>
 </body>
 </html>

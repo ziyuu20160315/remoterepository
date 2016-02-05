@@ -9,6 +9,19 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+     <servlet-name>a</servlet-name>
+     <servlet-class>controller.FirstSerlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>a</servlet-name>
+     <url-pattern>/FirstSerlet</url-pattern>
+   </servlet-mapping>
+
+  
+  
+  
   <resource-ref>
     <res-ref-name>jdbc/xxx</res-ref-name>
     <res-type>javax.sql.DataSource</res-type>

@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/FirstSerlet")
 public class FirstSerlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 

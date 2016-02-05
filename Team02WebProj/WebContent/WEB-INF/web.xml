@@ -29,4 +29,15 @@
 	</servlet-mapping>
 	
 	
+  
+  <servlet>
+     <servlet-name>a</servlet-name>
+     <servlet-class>controller.FirstSerlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+      <servlet-name>a</servlet-name>
+     <url-pattern>/FirstSerlet</url-pattern>
+   </servlet-mapping>
+
+
 </web-app>

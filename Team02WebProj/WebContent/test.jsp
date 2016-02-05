@@ -27,7 +27,15 @@ stmt.close();
 conn.close();
 %>
 
+
 <a href="/Team02WebProj/webtest"> 測試</a>
+
+<form  action="FirstSerlet" method="get">
+      
+   <input  type="submit">
+</form>
+
+
 
 </body>
 </html>

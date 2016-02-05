@@ -27,7 +27,7 @@ stmt.close();
 conn.close();
 %>
 
-
+<a href="/Team02WebProj/testservlet">servlet05</a>
 
 </body>
 </html>

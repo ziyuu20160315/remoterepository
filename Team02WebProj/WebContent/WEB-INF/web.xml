@@ -16,4 +16,13 @@
     <res-auth>Container</res-auth>
     <res-sharing-scope>Shareable</res-sharing-scope>
   </resource-ref>
+  
+  <servlet>
+  <servlet-name>servletTest</servlet-name>
+  <servlet-class>model.servlet05</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>servletTest</servlet-name>
+  <url-pattern>/testservlet</url-pattern>
+  </servlet-mapping>
 </web-app>

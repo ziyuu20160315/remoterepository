@@ -27,6 +27,10 @@ stmt.close();
 conn.close();
 %>
 
+<form  action="FirstSerlet" method="get">
+      
+   <input  type="submit">
+</form>
 
 
 </body>
